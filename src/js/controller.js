@@ -142,6 +142,11 @@ const controlAddReceipe = async function (newReceipe) {
     addReceipeView.renderError(err.message);
   }
 };
+
+const newFeature = function () {
+  console.log('Welcome to the application');
+};
+
 // controlSearchResults();
 // window.addEventListener('hashchange', controlReceipes);
 // window.addEventListener('load', controlReceipes);
@@ -153,6 +158,7 @@ const init = function () {
   searchView.addHandlersSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addReceipeView.addHandlerUpload(controlAddReceipe);
+  newFeature();
 };
 
 init();
