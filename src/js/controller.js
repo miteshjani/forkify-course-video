@@ -4,7 +4,7 @@ import receipeView from './views/receipeView.js';
 import searchView from './views/searchView.js';
 import resultsView from './views/resultsView.js';
 import paginationView from './views/paginationView.js';
-import bookMarksView from './views/bookMarksView.js';
+import bookMarksView from './views/bookmarksView.js';
 import addReceipeView from './views/addReceipeView.js';
 
 import 'core-js/stable';
